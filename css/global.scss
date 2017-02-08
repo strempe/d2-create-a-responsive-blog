@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+
+}
+header {
+    display: block;
+    flex: 1;
+    // flex-direction: column;
+    background: #0066ff;
+    text-align: center;
+    align-items: stretch;
+    padding: 15px;
+}  
+
+img {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    width: 13vw;
+    border-radius: 50%;
+ 
+}
+h1 {
+    font-size: 3vw;
+    color: white;
+    padding: none;
+}
+span{
+    font-weight: 200;
+}
+h4 {
+    font-size: 1vw;
+    color: white;
+    opacity: .5;
+}
+
+.button {
+    background-color: #0066ff;
+}
+button {
+    color: white;
+    background: #0066ff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border: 1px solid white; 
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+button i {
+    padding-left: 45px;
+}
+
+.icons {
+    color: white;
+    font-size: 14px;
+}
+.made {
+    text-align: left;
+    color: white;
+    padding: 0;
+}
+
+
+.social {
+    text-align: right;
+}
+.social i{ 
+    padding-right: 10px;
+}
+
+main {
+    flex: 1;
+    margin-left: 2vw;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 10px;
+    color: #0066ff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+h3 i {
+    color: #0066ff;
+    padding-left: 18px;
+}
+
+p{
+    font-size: 13px;
+    line-height: 20px;
+    color: dimgray;
+}
+
+.skills li {
+    list-style: none;
+    padding: none;  
+    font-weight: bold; 
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.skills li i{
+    color: #0066ff;
+    font-size: 10px;
+    padding-right: 15px;
+     
+}
+
+// tablet
+@media screen and (min-width: 768px){
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+}
